@@ -1,5 +1,5 @@
-name = input("Enter your name: ")
-age = input("Enter your income are")
+name = input("Enter your name? ")
+age = input("What is your age? ")
 income = float(input('What is your income? '))
 
 print('Here is the data you entered')
