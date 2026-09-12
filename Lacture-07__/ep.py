@@ -15,7 +15,7 @@ all_students = set.union(*attendance_sets)
 absent_at_least_one_day = all_students - present_every_day
 print("Absent at least one day: ", absent_at_least_one_day)
 
-first_day_present = attendance_sets[0]
+first_day_but_not_last = attendance_sets[0]
 last_day_present = attendance_sets[-1]
 first_day_but_not_last = list(first_day_but_not_last - last_day_present)
 print("Present on first day but absent on lasy day:", first_day_but_not_last)
